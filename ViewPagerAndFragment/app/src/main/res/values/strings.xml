@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ViewPagerAndFragment</string>
+    <string name="swipe_from_right_to_left">Swipe from Right to Left→</string>
+    <string name="swipe_from_left_to_right">←Swipe from Left to Right</string>
+    <string name="blue_fragment">Blue Fragment</string>
+    <string name="green_fragment">Green Fragment</string>
+    <string name="red_fragment">Red Fragment</string>
+    <string name="simple_view_pager">SIMPLE VIEW PAGER</string>
+    <string name="stripped_view_pager_with_title">STRIPPED VIEW PAGER WITH TITLE</string>
+    <string name="stripped_view_pager_with_tabs">STRIPPED VIEW PAGER WITH TABS</string>
+</resources>
