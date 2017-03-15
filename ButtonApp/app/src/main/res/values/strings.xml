@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ButtonApp</string>
+    <string name="raised_button_normal">Raised Button Normal</string>
+    <string name="flat_button_normal">Flat Button Normal</string>
 </resources>

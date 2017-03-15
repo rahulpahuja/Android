@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/activity_main"
     android:orientation="vertical"
     android:layout_width="match_parent"
@@ -12,57 +13,63 @@
     tools:context="com.rahul.buttonapp.MainActivity">
 
     <Button
-        android:minWidth="88dp"
+        android:minWidth="@dimen/eighty_eight_units"
         android:fontFamily="sans-serif-medium"
-        android:textSize="14dp"
-        android:text="Flat BUTTON normal"
+        android:textSize="@dimen/fourteen_text_units"
+        android:text="@string/flat_button_normal"
         android:layout_width="wrap_content"
-        android:layout_height="36dp"
-        android:paddingTop="6dp"
-        android:paddingBottom="6dp"/>
+        android:layout_height="@dimen/thirty_six_units"
+        android:paddingTop="@dimen/six_units"
+        android:paddingBottom="@dimen/six_units"/>
 
 
     <Button
-        android:padding="8dp"
+        android:padding="@dimen/eight_units"
         android:includeFontPadding="true"
-        android:paddingLeft="16dp"
-        android:paddingRight="16dp"
+        android:paddingLeft="@dimen/sixteen_units"
+        android:paddingRight="@dimen/sixteen_units"
         android:fontFamily="sans-serif-medium"
-        android:textSize="13dp"
-        android:text="Flat BUTTON normal"
-        android:minWidth="88dp"
+        android:textSize="@dimen/thirteen_text_units"
+        android:text="@string/flat_button_normal"
+        android:minWidth="@dimen/eighty_eight_units"
         android:layout_width="wrap_content"
-        android:layout_height="36dp"
-        android:paddingTop="6dp"
-        android:paddingBottom="6dp"/>
+        android:layout_height="@dimen/thirty_six_units"
+        android:paddingTop="@dimen/six_units"
+        android:paddingBottom="@dimen/six_units"/>
 
     <Button
-        android:elevation="2dp"
-        android:minWidth="88dp"
+        android:minWidth="@dimen/eighty_eight_units"
         android:fontFamily="sans-serif-medium"
-        android:textSize="14dp"
-        android:text="Raised BUTTON normal"
+        android:textSize="@dimen/fourteen_text_units"
+        android:text="@string/raised_button_normal"
         android:layout_width="wrap_content"
-        android:layout_height="36dp"
-        android:paddingTop="6dp"
-        android:paddingBottom="6dp"/>
+        android:layout_height="@dimen/thirty_six_units"
+        android:paddingTop="@dimen/six_units"
+        android:paddingBottom="@dimen/six_units"/>
 
 
     <Button
-        android:elevation="2dp"
-        android:padding="8dp"
+        android:padding="@dimen/eight_units"
         android:includeFontPadding="true"
-        android:paddingLeft="16dp"
-        android:paddingRight="16dp"
+        android:paddingLeft="@dimen/sixteen_units"
+        android:paddingRight="@dimen/sixteen_units"
         android:fontFamily="sans-serif-medium"
-        android:textSize="13dp"
-        android:text="Raised BUTTON normal"
-        android:minWidth="88dp"
+        android:textSize="@dimen/thirteen_text_units"
+        android:text="@string/raised_button_normal"
+        android:minWidth="@dimen/eighty_eight_units"
         android:layout_width="wrap_content"
-        android:layout_height="36dp"
-        android:paddingTop="6dp"
-        android:paddingBottom="6dp"/>
+        android:layout_height="@dimen/thirty_six_units"
+        android:paddingTop="@dimen/six_units"
+        android:paddingBottom="@dimen/six_units"/>
 
 
-    
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        app:fabSize="normal"
+        android:id="@+id/fab"
+        app:elevation="@dimen/four_units"
+        android:layout_gravity="bottom|end"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_media_play"/>
 </LinearLayout>
