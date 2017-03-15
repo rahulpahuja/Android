@@ -12,13 +12,14 @@
     tools:context="com.rahul.textviewapp.MainActivity">
 
     <TextView
-        android:paddingTop="20dp"
-        android:paddingBottom="20dp"
-        android:textSize="16sp"
+        android:paddingTop="@dimen/twenty_units"
+        android:paddingBottom="@dimen/twenty_units"
+        android:textSize="@dimen/sixteen_text_units"
         android:fontFamily="sans-serif"
         android:layout_marginLeft="@dimen/sixteen_units"
+        android:layout_marginStart="@dimen/sixteen_units"
         android:layout_marginTop="@dimen/sixteen_units"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Normal With Hint Text" />
+        android:text="@string/normal_with_hint_text" />
 </LinearLayout>
