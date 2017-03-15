@@ -3,4 +3,6 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="sixteen_units">16dp</dimen>
+    <dimen name="twenty_units">20dp</dimen>
+    <dimen name="sixteen_text_units">16sp</dimen>
 </resources>
