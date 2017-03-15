@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">TextViewApp</string>
     <string name="hello">Hello</string>
+    <string name="normal_with_hint_text">Normal With Hint Text</string>
 </resources>
