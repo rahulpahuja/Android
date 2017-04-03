@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SplashScreen</string>
+    <string name="loading_your_app">Loading Your App</string>
+    <string name="welcome_to_the_main_activity">Welcome to the Main Activity</string>
+</resources>
