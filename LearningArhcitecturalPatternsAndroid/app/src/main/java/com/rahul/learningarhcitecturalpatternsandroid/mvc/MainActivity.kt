@@ -8,6 +8,8 @@ import android.widget.Toast
 import com.rahul.learningarhcitecturalpatternsandroid.R
 
 
+//Video Ref: https://www.youtube.com/watch?v=97BRLkicQd0
+
 //Why Patterns are needed Scalability , Maintainability
 
 //This is controller layer for the mvc
