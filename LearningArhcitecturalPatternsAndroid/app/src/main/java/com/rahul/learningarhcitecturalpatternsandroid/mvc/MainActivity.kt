@@ -3,6 +3,7 @@ package com.rahul.learningarhcitecturalpatternsandroid.mvc
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.TextView
 import android.widget.Toast
 import com.rahul.learningarhcitecturalpatternsandroid.R
 
@@ -16,6 +17,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val app = AndroidApp("ArchPatternsApp","1.0")
-        Log.d(TAG, "onCreate: ${app.toString()}")
+        var clicker:TextView = findViewById<TextView>(R.id.clicker);
+        clicker.setOnClickListener({
+            clicker.text= "This data came from the model layer ${app.toString()}"
+            Log.d(TAG, "onCreate: ${app.toString()}")
+        })
+
+
     }
 }
