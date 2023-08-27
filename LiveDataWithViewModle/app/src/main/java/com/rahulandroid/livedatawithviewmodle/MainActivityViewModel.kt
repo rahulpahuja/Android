@@ -5,9 +5,14 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
 class MainActivityViewModel :ViewModel(){
-    val factsData = MutableLiveData<String>("This is a fact")
+    val factsDataO = MutableLiveData<String>("This is a fact")
+
+    val factsData:LiveData<String>
+        get()= factsDataO
+
+
 
     fun updateLiveData(){
-        factsData.value = "New Live Data "+Math.random();
+        factsDataO.value = "New Live Data "+Math.random();
     }
 }
